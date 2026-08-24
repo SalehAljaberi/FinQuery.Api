@@ -1,0 +1,41 @@
+# Node.js
+finquery-ui/node_modules/
+finquery-ui/.next/
+finquery-ui/out/
+finquery-ui/build/
+finquery-ui/.env*.local
+
+# C# / .NET
+.vs/
+FinQuery.Api/bin/
+FinQuery.Api/obj/
+FinQuery.Api/appsettings.Development.json
+FinQuery.Api/appsettings.*.json
+
+# Data files (DO NOT COMMIT)
+*.pdf
+*.csv
+*.xlsx
+*.doc
+*.docx
+uploads/
+data/
+*.db
+csv_checkpoint.txt
+
+# Python / DeepEval
+finquery-eval/__pycache__/
+finquery-eval/.pytest_cache/
+finquery-eval/.deepeval/
+finquery-eval/.venv/
+finquery-eval/venv/
+finquery-eval/env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# test files 
+DumpApi/
+dump.cs
+dump_config.cs
