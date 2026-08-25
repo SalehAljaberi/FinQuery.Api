@@ -11,6 +11,7 @@ FinQuery.Api/bin/
 FinQuery.Api/obj/
 FinQuery.Api/appsettings.Development.json
 FinQuery.Api/appsettings.*.json
+FinQuery.Api/appsettings.json
 
 # Data files (DO NOT COMMIT)
 *.pdf

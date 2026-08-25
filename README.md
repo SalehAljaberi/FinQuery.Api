@@ -68,11 +68,14 @@ Microsoft Foundry Local      (local model inference engine on port 5272)
    |-- qwen3-embedding-0.6b  (text embeddings, 1024 dimensions)
 ```
 
-### PlantUML Diagram
 
-Use this PlantUML code to generate a detailed architecture diagram (paste it into [plantuml.com](https://www.plantuml.com/plantuml/uml) or any PlantUML renderer):
+### Architecture Diagram
 
-```plantuml
+![FinQuery AI System Architecture](docs/screenshots/system_arch_finquery.png)
+
+<details>
+<summary>PlantUML Source Code (click to expand)</summary>
+
 @startuml FinQuery_Architecture
 !theme plain
 skinparam backgroundColor white
@@ -167,6 +170,8 @@ chunker --> db : INSERT chunks + vectors
 
 @enduml
 ```
+
+</details>
 
 ---
 
