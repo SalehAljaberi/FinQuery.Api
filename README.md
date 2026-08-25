@@ -76,6 +76,7 @@ Microsoft Foundry Local      (local model inference engine on port 5272)
 <details>
 <summary>PlantUML Source Code (click to expand)</summary>
 
+```plantuml
 @startuml FinQuery_Architecture
 !theme plain
 skinparam backgroundColor white
